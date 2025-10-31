@@ -7,8 +7,8 @@ const app = express()
 app.use(express.json())
 
 const allowedOrigins = [
-  'http://localhost:5177',
-  'http://192.168.1.56:5177',
+  'http://localhost:8000',
+  'http://192.168.1.56:8000',
   'https://v2.cbi.mdtapps.id',
 ];
 
