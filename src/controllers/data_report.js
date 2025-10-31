@@ -1,4 +1,3 @@
-import { logger } from '../application/logger.js';
 import { DateTime } from 'luxon';
 import { prismaClient } from '../application/database.js';
 
